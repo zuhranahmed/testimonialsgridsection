@@ -28,7 +28,7 @@ img {
 .cards {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(2, 1fr);
+  /* grid-template-rows: repeat(2, 1fr); */
   gap: 35px;
   margin-bottom: 30px;
 }
@@ -136,7 +136,7 @@ img {
   }
   .cards {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(5, 1fr);
+    /* grid-template-rows: repeat(5, 1fr); */
     gap: 15px;
     margin-bottom: 20px;
   }
